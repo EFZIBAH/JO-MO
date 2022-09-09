@@ -1,0 +1,75 @@
+header{
+  background-color: rgb(255, 106, 0);
+}
+.nav-link{
+  color: white;
+}
+.nav-link:hover{
+  color: blue;
+}
+.image img{
+  width: 100% !important;
+  height: 500px !important;
+}
+.hero-section.index{
+  background-image: linear-gradient(  to bottom right, rgba(255, 255, 255, 0.836), rgba(255, 166, 0, 0.601));
+} 
+.card-img img{
+  width: 100%;
+  height: 20vh;
+}
+.card.shadow{
+  box-shadow: 25px 25px 20px rgb(7, 0, 11);
+}
+.list-unstyled a:hover{
+  font-weight: bolder;
+}
+
+.card-pics img{
+  width: 100%;
+}
+.card-img-top img{
+  width: 100%;
+  height: 40vh;
+}
+.section.index .card:hover{
+transform: scale(1.05);
+}
+.footer-icons i:hover{
+  color: blue;
+}
+.section.about .card:hover{
+  transform: scale(1.05);
+  }
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+ .products{
+  display: none;
+ }
+  .mobile-card{
+    display: none;
+  }
+}
+@media(max-width:576px){
+  .card-img img{
+    height: 40vh;
+  }
+  .image img{
+    height: 60vh !important;
+  }
+@media(max-width:347px){
+  .image img{
+    height: 40vh !important;
+  }
+}
+}
